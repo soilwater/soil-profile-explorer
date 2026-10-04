@@ -1,0 +1,35 @@
+/* Description view (optional add-on). To remove: delete description.js + description.css
+   and their two lines in profile.html. */
+
+.view-switch { margin-left: auto; display: flex; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; }
+.view-switch button { border: 0; background: transparent; padding: 6px 14px; font-size: 13px; color: var(--muted); cursor: pointer; }
+.view-switch button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+
+/* covers the viewer instead of replacing it, so the viewer keeps its size and state */
+.description {
+  position: fixed; inset: var(--header-h) 0 0 0; z-index: 20;
+  overflow-y: auto; background: var(--bg); padding: 24px 16px 48px;
+}
+.description[hidden] { display: none; }
+
+.desc-grid { max-width: 1150px; margin: 0 auto; display: grid; grid-template-columns: auto 56px 1fr; align-items: start; }
+.desc-strip { display: block; border-radius: 3px; box-shadow: 0 0 0 1px var(--line); }
+.desc-links { display: block; }
+
+.desc-table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--surface); border: 1px solid var(--line); }
+.desc-table th {
+  padding: 10px 12px; text-align: left; font-size: 12px; font-weight: 650; text-transform: uppercase;
+  letter-spacing: .6px; color: var(--muted); border-bottom: 1px solid var(--line);
+}
+.desc-table td { padding: 10px 12px; vertical-align: top; border-top: 1px solid var(--line); }
+.desc-table td:nth-child(1) { font-weight: 650; white-space: nowrap; }
+.desc-table td:nth-child(2) { font: 13px ui-monospace, Consolas, monospace; color: var(--muted); white-space: nowrap; }
+.desc-table tbody tr { cursor: pointer; }
+.desc-table tbody tr:nth-child(odd) { background: rgba(255,255,255,.06); }
+.desc-table tbody tr:hover { background: var(--surface-2); }
+.desc-note { max-width: 1150px; margin: 12px auto 0; font-size: 12.5px; color: var(--faint); }
+
+@media (max-width: 700px) {
+  .desc-grid { grid-template-columns: 1fr; }
+  .desc-strip, .desc-links { display: none; }
+}

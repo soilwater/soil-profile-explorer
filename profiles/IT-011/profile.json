@@ -1,0 +1,91 @@
+{
+  "name": "Reference soil Italy 11",
+  "summary": "A reddish shrink–swell clay from the hills of central Italy. Wet winters and dry summers make the clay swell and crack, which churns the soil and carves wedge-shaped blocks with shiny shear faces.",
+  "info": {
+    "WRB": "Vertisol",
+    "USDA": "Chromic Haploxerert",
+    "Location": "Lazio, Italy (near Pastena)",
+    "Elevation": "315 m",
+    "Parent material": "Clay with volcanic material",
+    "Vegetation": "Grassland with scattered oaks, grazed"
+  },
+  "credit": "Photo: ISRIC World Soil Reference Collection, CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:ISRIC_monolith_IT-011.jpg — Site and horizon data condensed from ISRIC – World Soil Information https://isis.isric.org/monoliths/reference-soil-it011 — Feature notes written for this site.",
+  "px_per_cm": 59.08,
+  "zero_y_px": 30,
+  "horizons": [
+    {
+      "name": "Ap1",
+      "top_cm": 0,
+      "bottom_cm": 7,
+      "description": "Dark reddish brown (5YR 3/3 moist) clay; moderate fine and medium crumb structure; very friable; very few weathered limestone gravels; abrupt smooth boundary."
+    },
+    {
+      "name": "Ap2",
+      "top_cm": 7,
+      "bottom_cm": 20,
+      "description": "Dark reddish brown (5YR 3/3 moist) clay; moderate medium subangular blocky and fine crumb structure; friable; broken thin clay–humus cutans in root channels; very few small hard Mn nodules; abrupt smooth boundary."
+    },
+    {
+      "name": "2Bt",
+      "top_cm": 20,
+      "bottom_cm": 47,
+      "description": "Dark reddish brown (5YR 3/4 moist) clay; moderate to strong medium and coarse angular blocky structure; firm; few coarse distinct mottles (5YR 4/6); broken thick clay–sesquioxide cutans on ped faces; clear smooth boundary."
+    },
+    {
+      "name": "2Btg1",
+      "top_cm": 47,
+      "bottom_cm": 85,
+      "description": "Dark reddish brown (5YR 3/4 moist) clay; moderate to strong coarse and very coarse wedge-shaped angular blocky structure; firm; common coarse distinct mottles (5YR 4/6, 2.5YR 4/6); broken thick clay–sesquioxide cutans; slickensides; gradual smooth boundary."
+    },
+    {
+      "name": "2Btg2",
+      "top_cm": 85,
+      "bottom_cm": 110,
+      "description": "Dark reddish brown (5YR 3/4 moist) clay; strong coarse and very coarse wedge-shaped angular blocky structure; very firm; few to common distinct mottles (5YR 5/6, 2.5YR 3/4); patchy thick clay–sesquioxide cutans on ped faces; slickensides; diffuse smooth boundary."
+    }
+  ],
+  "features": [
+    {
+      "title": "Crumbly topsoil",
+      "x": 1000,
+      "y": 266,
+      "description": "Small crumbs and fine roots at the surface. Dry-season cracking breaks the clay into this loose layer."
+    },
+    {
+      "title": "Animal burrow",
+      "x": 380,
+      "y": 520,
+      "description": "Open burrow in the topsoil."
+    },
+    {
+      "title": "Limestone fragment",
+      "x": 1360,
+      "y": 1011,
+      "description": "Pale fragment of weathered limestone, a few of which are scattered in the upper soil."
+    },
+    {
+      "title": "Shrinkage crack",
+      "x": 1440,
+      "y": 1359,
+      "description": "Horizontal crack opened as the clay dried. In summer, cracks like these can reach deep into the profile."
+    },
+    {
+      "title": "Slickenside",
+      "x": 1040,
+      "y": 3451,
+      "description": "Dark, polished shear face. Swelling clay pushes blocks past each other, smoothing their surfaces. This is the hallmark of Vertisols."
+    },
+    {
+      "title": "Dark coated block",
+      "x": 1080,
+      "y": 3811,
+      "description": "Ped face darkened by clay and oxide coatings."
+    },
+    {
+      "title": "Wedge-shaped ped",
+      "x": 880,
+      "y": 4668,
+      "description": "Inclined shear plane bounding a wedge-shaped block, formed by repeated swelling and shrinking."
+    }
+  ]
+}

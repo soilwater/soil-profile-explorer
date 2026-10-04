@@ -1,0 +1,96 @@
+{
+  "name": "Reference soil Germany 14",
+  "summary": "A deep, dark grassland-type soil formed in wind-blown loess, a close relative of the Mollisols of the Great Plains. Earthworms and burrowing animals have mixed humus far down into the profile, over pale, lime-bearing loess.",
+  "info": {
+    "WRB": "Chernozem",
+    "Location": "Lower Saxony, Germany (near Hildesheim)",
+    "Elevation": "75 m",
+    "Parent material": "Loess from the last glaciation",
+    "Vegetation": "Cropland; originally oak–beech woodland"
+  },
+  "credit": "Photo: ISRIC World Soil Reference Collection, CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:ISRIC_monolith_DE-014.jpg — Site and horizon data condensed from ISRIC – World Soil Information https://isis.isric.org/monoliths/reference-soil-de014 — Feature notes written for this site.",
+  "px_per_cm": 50.86,
+  "zero_y_px": 42,
+  "horizons": [
+    {
+      "name": "Ah1",
+      "top_cm": 0,
+      "bottom_cm": 10,
+      "description": "Dark brown (7.5YR 3/2 moist) silt loam; strong fine subangular blocky and crumb structure; very friable; gradual smooth boundary."
+    },
+    {
+      "name": "Ah2",
+      "top_cm": 10,
+      "bottom_cm": 32,
+      "description": "Dark brown (7.5YR 3.5/2 moist) silt loam; fine subangular blocky and strong fine crumb structure; very friable; abrupt irregular boundary."
+    },
+    {
+      "name": "Ah3",
+      "top_cm": 32,
+      "bottom_cm": 55,
+      "description": "Very dark brown (7.5YR 2/2 moist) silt loam; strong fine subangular blocky structure; very friable; broken clay cutans in root channels and pores; clear irregular boundary."
+    },
+    {
+      "name": "BC",
+      "top_cm": 55,
+      "bottom_cm": 78,
+      "description": "Silt loam; strong fine and medium angular and subangular blocky structure; very friable; broken clay cutans; krotovinas; clear irregular boundary."
+    },
+    {
+      "name": "Cg",
+      "top_cm": 78,
+      "bottom_cm": 123,
+      "description": "Yellow (10YR 7/6 moist) silt loam (loess); weak angular blocky to porous massive; common fine distinct mottles (10YR 7/2, 10YR 6/8); calcareous concretions."
+    }
+  ],
+  "features": [
+    {
+      "title": "Root",
+      "x": 785,
+      "y": 673,
+      "description": "Roots grow throughout the humus layer; when they die they leave channels and organic matter behind."
+    },
+    {
+      "title": "Earthworm channel",
+      "x": 360,
+      "y": 1191,
+      "description": "Open channel left by an earthworm. Worms mix organic matter deep into Chernozems."
+    },
+    {
+      "title": "Old root channel",
+      "x": 400,
+      "y": 1619,
+      "description": "A thick decaying root running down through the topsoil."
+    },
+    {
+      "title": "Biopore",
+      "x": 810,
+      "y": 2382,
+      "description": "Round pore from roots or soil fauna. Pores like this let water and air move quickly downward."
+    },
+    {
+      "title": "Krotovina",
+      "x": 1320,
+      "y": 3333,
+      "description": "Burrow of a small mammal, filled with dark topsoil from above. Light and dark patches like this are typical at the base of Chernozems."
+    },
+    {
+      "title": "Humus tongue",
+      "x": 900,
+      "y": 3755,
+      "description": "Dark topsoil material reaching down into the loess along old channels and burrows."
+    },
+    {
+      "title": "Dark speck",
+      "x": 1200,
+      "y": 5133,
+      "description": "Small dark (manganese) speck in the loess."
+    },
+    {
+      "title": "Loess",
+      "x": 700,
+      "y": 5474,
+      "description": "Wind-blown silt deposited during the last ice age, the same kind of parent material as much of Kansas."
+    }
+  ]
+}

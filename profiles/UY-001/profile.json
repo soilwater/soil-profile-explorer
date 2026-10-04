@@ -1,0 +1,103 @@
+{
+  "name": "Reference soil Uruguay 1",
+  "summary": "A seasonally waterlogged Planosol from the rice-growing lowlands of eastern Uruguay. A pale, leached upper soil stops abruptly on a dense clay subsoil that perches water, producing iron mottles, manganese nodules and grey reduced streaks.",
+  "info": {
+    "WRB": "Luvic Planosol (Albic, Hyposodic)",
+    "USDA": "Typic Albaqualf",
+    "Location": "Cerro Largo, Uruguay (10 km S of Rio Branco)",
+    "Elevation": "10 m",
+    "Parent material": "Mid–late Pleistocene sediments",
+    "Land use": "Locally rice cultivation"
+  },
+  "credit": "Photo: ISRIC World Soil Reference Collection, CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:ISRIC_monolith_UY-001.jpg — Site and horizon data condensed from ISRIC – World Soil Information https://isis.isric.org/monoliths/reference-soil-uy001 — Feature notes written for this site.",
+  "px_per_cm": 50.74,
+  "zero_y_px": 75,
+  "horizons": [
+    {
+      "name": "Ah",
+      "top_cm": 0,
+      "bottom_cm": 23,
+      "description": "Dark grayish brown (10YR 4/2 moist) loam; massive to weak medium subangular blocky structure; friable; common fine faint mottles; few small hard Mn concretions; smooth boundary."
+    },
+    {
+      "name": "E",
+      "top_cm": 23,
+      "bottom_cm": 32,
+      "description": "Dark grayish brown (10YR 4/2 moist), light brownish gray (10YR 6/2 dry) loam; massive to weak platy structure; friable; common fine faint mottles; abrupt broken boundary."
+    },
+    {
+      "name": "Btg1",
+      "top_cm": 32,
+      "bottom_cm": 48,
+      "description": "Grayish brown (10YR 4.5/2 moist) clay loam; strong medium prismatic to angular blocky structure; firm; many coarse prominent strong brown (7.5YR 5/6) mottles; continuous thick clay cutans; few small soft Mn nodules; gradual smooth boundary."
+    },
+    {
+      "name": "Btg2",
+      "top_cm": 48,
+      "bottom_cm": 78,
+      "description": "Grayish brown (10YR 4.5/2 moist) clay loam; strong coarse prismatic to angular blocky structure; very firm; common medium prominent strong brown (7.5YR 5/6) mottles; broken moderately thick clay cutans; very few Mn nodules; diffuse wavy boundary."
+    },
+    {
+      "name": "Btg3",
+      "top_cm": 78,
+      "bottom_cm": 105,
+      "description": "Grayish brown (2.5Y 5/2 moist) clay loam; strong coarse wedge-shaped angular blocky structure; very firm; broken moderately thick clay cutans; many small soft Mn nodules; diffuse smooth boundary. (Designation assigned here.)"
+    },
+    {
+      "name": "C",
+      "top_cm": 105,
+      "bottom_cm": 153,
+      "description": "Light brownish gray (2.5Y 6/2 dry) clay loam; moderate medium angular blocky structure; extremely hard (dry); broken thin clay cutans; few large hard Mn nodules; very few gypsum nodules."
+    }
+  ],
+  "features": [
+    {
+      "title": "Grass root mat",
+      "x": 545,
+      "y": 176,
+      "description": "Dense fibrous roots in the topsoil."
+    },
+    {
+      "title": "Leached E horizon",
+      "x": 909,
+      "y": 1242,
+      "description": "Pale layer from which clay and iron have been removed by lateral flow of perched water above the clay subsoil."
+    },
+    {
+      "title": "Abrupt textural change",
+      "x": 636,
+      "y": 1521,
+      "description": "Loam sits directly on clay loam. Water collects on this boundary after rain, which keeps the upper soil wet and reducing."
+    },
+    {
+      "title": "Prism crack",
+      "x": 864,
+      "y": 1749,
+      "description": "Vertical crack between prisms in the dense Btg horizon."
+    },
+    {
+      "title": "Manganese spots",
+      "x": 745,
+      "y": 2703,
+      "description": "Black Mn oxide spots. They form where manganese, mobilized while the soil is saturated, re-oxidizes as it dries (a redox concentration)."
+    },
+    {
+      "title": "Fe–Mn nodule",
+      "x": 1036,
+      "y": 3175,
+      "description": "Rounded black iron–manganese nodule. Repeated wetting and drying cycles build these up layer by layer."
+    },
+    {
+      "title": "Iron mottle",
+      "x": 836,
+      "y": 5803,
+      "description": "Yellowish-brown iron oxide mottle, a redox concentration formed where oxygen reaches the soil along cracks and pores."
+    },
+    {
+      "title": "Grey streak (redox depletion)",
+      "x": 873,
+      "y": 6169,
+      "description": "Grey zone along a crack where iron was reduced and carried away by water."
+    }
+  ]
+}

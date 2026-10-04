@@ -1,0 +1,85 @@
+{
+  "name": "Reference soil Brazil 13",
+  "summary": "A very deep, intensely weathered Ferralsol from the Amazon near Belterra. Almost nothing weatherable is left: the clay is kaolinite with iron and aluminium oxides, giving a uniform brownish-yellow color, a porous, crumbly structure and very low nutrient reserves.",
+  "info": {
+    "WRB": "Geric Ferralsol (Alumic, Clayic, Xanthic)",
+    "USDA": "Xanthic Haploperox",
+    "Location": "Pará State, Brazil (near Belterra)",
+    "Elevation": "75 m",
+    "Parent material": "Belterra clay (lacustrine sediments)",
+    "Vegetation": "Evergreen forest; forestry research station"
+  },
+  "credit": "Photo: ISRIC World Soil Reference Collection, CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:ISRIC_monolith_BR-013.jpg — Site and horizon data condensed from ISRIC – World Soil Information https://isis.isric.org/monoliths/reference-soil-br013 — Feature notes written for this site.",
+  "px_per_cm": 49.44,
+  "zero_y_px": 4,
+  "horizons": [
+    {
+      "name": "Ah",
+      "top_cm": 0,
+      "bottom_cm": 7,
+      "description": "Brown (10YR 5/3 moist) clay; weak to moderate very fine and fine subangular blocky to crumb structure; friable; clear smooth boundary."
+    },
+    {
+      "name": "AB",
+      "top_cm": 7,
+      "bottom_cm": 25,
+      "description": "Yellowish brown (10YR 5/4 moist) clay; weak subangular blocky to porous massive structure; friable; gradual smooth boundary. (Designation assigned here.)"
+    },
+    {
+      "name": "BA",
+      "top_cm": 25,
+      "bottom_cm": 48,
+      "description": "Brownish yellow (10YR 6/6 moist) clay; weak fine and medium subangular blocky to porous massive structure; firm; diffuse smooth boundary."
+    },
+    {
+      "name": "Bw1",
+      "top_cm": 48,
+      "bottom_cm": 85,
+      "description": "Brownish yellow (10YR 6/8 moist) clay; weak fine and medium subangular blocky structure; firm; broken thin clay cutans; ferralic; diffuse smooth boundary."
+    },
+    {
+      "name": "Bw2",
+      "top_cm": 85,
+      "bottom_cm": 170,
+      "description": "Brownish yellow (10YR 6/8 moist) clay; porous massive; firm; broken thin clay cutans; ferralic; continues to at least 250 cm."
+    }
+  ],
+  "features": [
+    {
+      "title": "Leaf litter",
+      "x": 545,
+      "y": 132,
+      "description": "Thin forest litter. Nutrients cycle quickly between litter and roots because the mineral soil holds very few."
+    },
+    {
+      "title": "Root",
+      "x": 545,
+      "y": 632,
+      "description": "Most roots stay in the upper soil, where nearly all the nutrients are."
+    },
+    {
+      "title": "Humus mottling",
+      "x": 727,
+      "y": 1566,
+      "description": "Faint darker patches where organic matter from the surface has been worked into the yellow clay."
+    },
+    {
+      "title": "Porous massive structure",
+      "x": 909,
+      "y": 5245,
+      "description": "Very fine micro-aggregates of clay bound by iron and aluminium oxides make the soil look massive, but it drains like a sand."
+    },
+    {
+      "title": "Round channel",
+      "x": 745,
+      "y": 5883,
+      "description": "Circular channel, probably an old root or ant gallery."
+    },
+    {
+      "title": "Infilled burrow (krotovina)",
+      "x": 400,
+      "y": 6318,
+      "description": "An old animal burrow, later filled with soil from above."
+    }
+  ]
+}

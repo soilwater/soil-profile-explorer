@@ -1,0 +1,121 @@
+{
+  "name": "Reference soil Kenya 67",
+  "summary": "Grassland soil on weathered volcanic rock in the Kenyan highlands. A black, humus-rich topsoil sits over a clay subsoil that cracks as it dries, with calcium carbonate concretions accumulating below about 70 cm.",
+  "info": {
+    "WRB": "Vertic Calcic Luvic Kastanozem (Hyposodic, Clayic)",
+    "USDA": "Vertic Argiustoll",
+    "Location": "Kajiado District, Kenya",
+    "Elevation": "1765 m",
+    "Parent material": "Olorgesailie biotite phonolite",
+    "Vegetation": "Natural grassland dominated by Themeda triandra"
+  },
+  "credit": "Photo: ISRIC World Soil Reference Collection, CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:ISRIC_monolith_KE-067.jpg — Site and horizon data condensed from ISRIC – World Soil Information https://isis.isric.org/monoliths/reference-soil-ke067 — Feature notes written for this site.",
+  "px_per_cm": 102.05,
+  "zero_y_px": 245,
+  "horizons": [
+    {
+      "name": "Ah",
+      "top_cm": 0,
+      "bottom_cm": 5,
+      "description": "Black (7.5YR 2/0 moist) silty clay; strong fine and medium crumb structure; friable; many very fine roots; non-calcareous; gradual smooth boundary."
+    },
+    {
+      "name": "AB",
+      "top_cm": 5,
+      "bottom_cm": 15,
+      "description": "Black (2.5Y 2/0 moist) silty clay; strong fine and medium crumb and fine subangular blocky structure; friable; many very fine roots; non-calcareous; clear wavy boundary."
+    },
+    {
+      "name": "Bth",
+      "top_cm": 15,
+      "bottom_cm": 35,
+      "description": "Black clay; strong medium prismatic parting to fine and medium angular blocky structure; firm; continuous thin clay–humus cutans on ped faces; moderately calcareous; gradual smooth boundary."
+    },
+    {
+      "name": "Bt",
+      "top_cm": 35,
+      "bottom_cm": 60,
+      "description": "Very dark gray (2.5Y 3/0 moist) clay; strong very coarse prismatic structure; firm; continuous moderately thick clay cutans on ped faces; moderately calcareous; gradual smooth boundary."
+    },
+    {
+      "name": "Bci",
+      "top_cm": 60,
+      "bottom_cm": 70,
+      "description": "Very dark gray (10YR 3/1 moist) clay; moderate coarse angular blocky structure; friable; patchy slickensides; moderately calcareous; clear smooth boundary."
+    },
+    {
+      "name": "Ckc1",
+      "top_cm": 70,
+      "bottom_cm": 90,
+      "description": "Dark grayish brown (2.5Y 4/2 moist) clay; weakly coherent massive parting to fine subangular blocky structure; friable; very few soft carbonate concretions; moderately calcareous; gradual smooth boundary."
+    },
+    {
+      "name": "Ckc2",
+      "top_cm": 90,
+      "bottom_cm": 120,
+      "description": "Dark grayish brown (2.5Y 4/2 moist) clay; massive parting to fine subangular blocky structure; friable; very few soft carbonate concretions; moderately calcareous; gradual smooth boundary."
+    },
+    {
+      "name": "Ckc3",
+      "top_cm": 120,
+      "bottom_cm": 140,
+      "description": "Weak red (2.5YR 4/2 moist) sandy clay loam; weakly coherent massive; friable; common large hard carbonate concretions; strongly calcareous."
+    }
+  ],
+  "features": [
+    {
+      "title": "Grass tussock",
+      "x": 2120,
+      "y": 230,
+      "description": "Base of a Themeda triandra tussock. Dense grass roots supply the organic matter that makes the topsoil black."
+    },
+    {
+      "title": "Crumb structure",
+      "x": 1150,
+      "y": 925,
+      "description": "Small rounded aggregates formed by fine roots and soil fauna, typical of grassland topsoils."
+    },
+    {
+      "title": "Root",
+      "x": 1740,
+      "y": 2400,
+      "description": "A root crossing the Bth horizon. Roots grow along the ped faces, where the clay–humus coatings are."
+    },
+    {
+      "title": "Horizontal crack",
+      "x": 1100,
+      "y": 6520,
+      "description": "A shrinkage crack near the Bt/Bci boundary. In this clay, cracks open when it dries and close when it is wet."
+    },
+    {
+      "title": "Vertical crack",
+      "x": 1750,
+      "y": 7330,
+      "description": "A wide crack between prisms. Surface material can fall in during the dry season, slowly mixing the profile (vertic behavior)."
+    },
+    {
+      "title": "Carbonate specks",
+      "x": 680,
+      "y": 9560,
+      "description": "White specks of secondary calcium carbonate. Water rarely percolates deeper in this climate, so dissolved carbonate precipitates here."
+    },
+    {
+      "title": "Soft carbonate concretion",
+      "x": 920,
+      "y": 10320,
+      "description": "Soft, powdery calcium carbonate. It would fizz with 1 M HCl."
+    },
+    {
+      "title": "Carbonate-cemented zone",
+      "x": 1280,
+      "y": 11360,
+      "description": "Pale zone where carbonate coats and cements fragments of weathered rock."
+    },
+    {
+      "title": "Hard carbonate concretions",
+      "x": 2520,
+      "y": 12200,
+      "description": "Large, hard carbonate concretions, typical of the strongly calcareous Ckc3 horizon."
+    }
+  ]
+}

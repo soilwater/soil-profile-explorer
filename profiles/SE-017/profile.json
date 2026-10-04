@@ -1,0 +1,97 @@
+{
+  "name": "Reference soil Sweden 17",
+  "summary": "A textbook Podzol under boreal forest. Acids from the needle litter have stripped iron and organic matter from a bleached, ash-grey layer and redeposited them as a dark, rusty band below. Wetness lower down adds grey, gleyed patches.",
+  "info": {
+    "WRB": "Gleyic Podzol",
+    "USDA": "Cryaquod (1975)",
+    "Location": "Västerbotten, Sweden",
+    "Elevation": "245 m",
+    "Parent material": "Glacial till of Weichselian age",
+    "Vegetation": "Northern coniferous forest (pine, fir, birch) with blueberry and mosses"
+  },
+  "credit": "Photo: ISRIC World Soil Reference Collection, CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:ISRIC_monolith_SE-017.jpg — Site and horizon data condensed from ISRIC – World Soil Information https://isis.isric.org/monoliths/reference-soil-se017 — Feature notes written for this site.",
+  "px_per_cm": 51.25,
+  "zero_y_px": 282,
+  "horizons": [
+    {
+      "name": "O",
+      "top_cm": 0,
+      "bottom_cm": 10,
+      "description": "Organic horizon of needles and partly decomposed plant remains; gradual smooth boundary."
+    },
+    {
+      "name": "E",
+      "top_cm": 10,
+      "bottom_cm": 34,
+      "description": "Light gray (10YR 7/1 dry) loamy sand; moderate platy structure; albic (bleached) horizon; gradual boundary."
+    },
+    {
+      "name": "Bhs1",
+      "top_cm": 34,
+      "bottom_cm": 45,
+      "description": "Loamy sand; moderate platy structure; illuvial accumulation of humus and Fe–Al sesquioxides; gradual boundary."
+    },
+    {
+      "name": "Bhs2",
+      "top_cm": 45,
+      "bottom_cm": 54,
+      "description": "Very dark gray (7.5YR 3/1 dry) loamy sand; moderate platy structure; weakly cemented; humus and sesquioxide accumulation; gradual boundary."
+    },
+    {
+      "name": "Bgs",
+      "top_cm": 54,
+      "bottom_cm": 90,
+      "description": "Light gray (2.5Y 7/2 dry) sandy clay; weak platy to massive structure; Fe accumulation with gray reduced zones (gleyic properties)."
+    }
+  ],
+  "features": [
+    {
+      "title": "Needle litter and roots",
+      "x": 900,
+      "y": 487,
+      "description": "Acidic coniferous litter. As it decomposes it releases organic acids that drive podzolization."
+    },
+    {
+      "title": "Abrupt O/E boundary",
+      "x": 400,
+      "y": 865,
+      "description": "Sharp contact between the dark organic layer and the bleached mineral soil, typical of Podzols with little mixing by soil fauna."
+    },
+    {
+      "title": "Bleached quartz sand",
+      "x": 900,
+      "y": 1512,
+      "description": "Coatings of iron oxide and humus have been stripped from the sand grains, leaving their natural light grey color."
+    },
+    {
+      "title": "Humus–iron band",
+      "x": 800,
+      "y": 2178,
+      "description": "The dark Bhs band where organic-metal complexes washed down from above precipitate. This is the spodic horizon that defines a Podzol."
+    },
+    {
+      "title": "Iron accumulation",
+      "x": 545,
+      "y": 3152,
+      "description": "Rusty orange iron oxides precipitated in the lower B horizon."
+    },
+    {
+      "title": "Grey reduced patch (redox depletion)",
+      "x": 1055,
+      "y": 3203,
+      "description": "Grey zone where iron was reduced and removed during periods of saturation. These are the gleyic properties in Gleyic Podzol."
+    },
+    {
+      "title": "Rounded gravel",
+      "x": 427,
+      "y": 3475,
+      "description": "Rounded stones from the glacial till parent material."
+    },
+    {
+      "title": "Platy structure",
+      "x": 727,
+      "y": 4203,
+      "description": "Horizontal plates in the compact, weakly cemented subsoil, which slow downward water movement."
+    }
+  ]
+}
